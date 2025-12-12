@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>e-PORTFOLIO.</title>
+    <link rel="stylesheet" href="eportfolio2.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("MacWallpaper.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #ffffffb0; 
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="title"> 
+        <h1>e-PORTFOLIO.</h1>
+    </div>
+    <nav class="menu-header">
+        <a href="index.html" class="btn">ACCUEIL</a>
+        <a href="Tableau de synthese.pdf" class="btn">TABLEAU DE SYNTHESE</a>
+        <a href="MesCompetences.html" class="btn">MES COMPÉTENCES</a>
+        <a href="MonParcours.html" class="btn">MON PARCOURS</a>
+        <a href="MeContacter.html" class="btn">ME CONTACTER</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>e-PORTFOLIO.</h1>
+    <p>Bienvenue sur mon portfolio numérique, où vous pourrez en savoir plus sur mes compétences professionnelles et mon parcours.</p>
+</section>
+
+<div class="social-icons">
+    <a href="https://github.com/DaniellaNanaNya" target="_blank">
+        <i class="ri-github-fill"></i>
+    </a>
+    <a href="https://fr.linkedin.com/in/daniella-nana-nya-56846b385" target="_blank">
+        <i class="ri-linkedin-box-fill"></i>
+    </a>
+</div>
+
+<div class="container-wrapper">
+    <div class="container">
+
+        <h1>Ici,</h1>
+        <p>Accédez facilement à mon CV, à mes certifications et ainsi qu'aux détails de mes compétences.</p>  
+        <p>et ainsi qu'aux détails de mes compétences.</p> 
+
+        <!-- Compétences cliquables -->
+        <div class="competences">
+            <div class="competence" data-detail="detail-virtualisation">Virtualisation</div>
+            <div class="competence" data-detail="detail-gestion">Gestion de projet</div>
+            <div class="competence" data-detail="detail-dev">Développement</div>
+            <div class="competence" data-detail="detail-droit">Droit</div>
+            <div class="competence" data-detail="detail-reseau">Réseau</div>
+          <div class="competence" data-detail="detail-cybersecurite">Cybersécurité</div>
+        </div>
+
+        <div class="buttons">
+            <a href="cv.html" class="button">Voir mon CV</a>
+            <a href="certifications.html" class="button">Voir mes certifications</a>
+        </div>             
+    </div>
+</div>
+
+<!-- Cards détaillées -->
+<div class="detail-card" id="detail-virtualisation">
+    <h3>Virtualisation</h3>
+    <p><strong>Description :</strong> Installation et configuration de machines virtuelles Linux et Debian pour tester différents environnements.</p>
+    <p><strong>Comment je l'ai appris :</strong> Durant les travaux pratiques grâce à la documentation.</p>
+    <p><strong>Utilité :</strong> Créer des environnements de test sans modifier mon système principal.</p>
+    <p><strong>Expérience :</strong> Installation de serveurs web et bases de données sur machines virtuelles.</p>
+    <button class="close-card">Fermer</button>
+</div>
+
+<div class="detail-card" id="detail-reseau">
+    <h3>Réseau</h3>
+    <p><strong>Description :</strong>
+        Étude des 7 couches du modèle OSI pour comprendre le traitement des données et les protocoles à chaque niveau :
+        <br>• <em>Physique</em> — supports et signaux (câbles, ondes, fibres) ;
+        <br>• <em>Liaison</em> — trames, adresses MAC, détection d’erreurs (Ethernet, Wi-Fi) ;
+        <br>• <em>Réseau</em> — routage et adressage (IP) ;
+        <br>• <em>Transport</em> — ports, contrôle de flux et fiabilité (TCP/UDP) ;
+        <br>• <em>Session</em> — gestion des sessions et synchronisation ;
+        <br>• <em>Présentation</em> — formatage, chiffrement et compression (ex. TLS) ;
+        <br>• <em>Application</em> — services visibles (HTTP, FTP, SMTP, DNS).
+        </p>
+    <p><strong>Comment je l'ai appris :</strong> Travaux pratiques et cours théoriques sur le modèle OSI et la gestion des réseaux.</p>
+    <p><strong>Utilité :</strong> Comprendre le fonctionnement des réseaux et diagnostiquer des problèmes de communication.</p>
+    <p><strong>Expérience :</strong> Analyse et simulation de flux réseau entre différentes machines virtuelles.</p>
+    <button class="close-card">Fermer</button>
+</div>
+
+<!-- Cybersécurité -->
+<div class="detail-card" id="detail-cybersecurite">
+    <h3>Cybersécurité</h3>
+    <p><strong>Description :</strong> Connaissances de base en RGPD et sécurité informatique.</p>
+    <p><strong>Comment je l'ai appris :</strong> Participation à des formations et obtention de la certification EBIOS Risk Manager.</p>
+    <p><strong>Utilité :</strong> Assurer la protection des données et identifier les risques de sécurité.</p>
+    <p><strong>Expérience :</strong> Réalisation d’exercices pratiques sur la sécurité des systèmes et la gestion des risques.</p>
+    <button class="close-card">Fermer</button>
+</div>
+
+
+<div class="detail-card" id="detail-gestion">
+    <h3>Gestion de projet</h3>
+    <p><strong>Description :</strong> Organisation et suivi de projets, planification et coordination.</p>
+    <p><strong>Comment je l'ai appris :</strong> Participation collective à l'organisation d'un afterwork des alumni du BTS SIO du lycée Turgot.</p>
+    <p><strong>Utilité :</strong> Gérer efficacement délais et ressources dans les projets.</p>
+    <p><strong>Expérience :</strong> Organisation d’afterworks en groupe.</p>
+    <button class="close-card">Fermer</button>
+</div>
+
+<div class="detail-card" id="detail-dev">
+    <h3>Développement</h3>
+    <p><strong>Description :</strong> Programmation en PHP, SQL et Python pour sites web et applications.</p>
+    <p><strong>Comment je l'ai appris :</strong> travaux pratiques, tutoriels et projets personnels.</p>
+    <p><strong>Utilité :</strong> Développer des fonctionnalités web et automatiser des tâches.</p>
+    <p><strong>Expérience :</strong> Création de sites web (site de vente de produits capillaires) et création de bases de données.</p>
+    <button class="close-card">Fermer</button>
+</div>
+
+<div class="detail-card" id="detail-droit">
+    <h3>Droit</h3>
+    <p><strong>Description :</strong> Connaissances en culture économique, juridique et managériale.</p>
+    <p><strong>Comment je l'ai appris :</strong> Cours universitaires (BTS) et lectures spécialisées.</p>
+    <p><strong>Utilité :</strong> Comprendre le cadre légal et réglementaire des projets et entreprises.</p>
+    <p><strong>Expérience :</strong> Application des notions dans des études de cas et projets de groupe.</p>
+    <button class="close-card">Fermer</button>
+</div>
+
+<script>
+const competences = document.querySelectorAll('.competence');
+const cards = document.querySelectorAll('.detail-card');
+
+competences.forEach(comp => {
+    comp.addEventListener('click', () => {
+        const id = comp.getAttribute('data-detail');
+        document.getElementById(id).style.display = 'block';
+    });
+});
+
+cards.forEach(card => {
+    card.querySelector('.close-card').addEventListener('click', () => {
+        card.style.display = 'none';
+    });
+});
+</script>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<footer>
+    <p>©e-PORTFOLIO edited by NANA NYA MAYARD Daniella · Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
